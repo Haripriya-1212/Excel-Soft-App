@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">ES_app</string>
+
+
+    <string name="job1">Full Stack Developer</string>
+
+    <string name="job1_sdes">We are looking for a Full Stack Developer to produce scalable software solutions.</string>
+
+    <string name="job1_des1">We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment.
+
+</string>
+
+    <string name="job1_des2">As a Full Stack Developer, you should be comfortable around both front-end and back-end coding languages, development frameworks and third-party libraries. You should also be a team player with a knack for visual design and utility.
+
+If you’re also familiar with Agile methodologies, we’d like to meet you.
+
+Responsibilities
+
+Work with development teams and product managers to ideate software solutions
+
+Design client-side and server-side architecture
+</string>
+
+
+    <string name="job1_des3">Build the front-end of applications through appealing visual design
+
+Develop and manage well-functioning databases and applications
+
+Write effective APIs
+
+Test software to ensure responsiveness and efficiency
+
+Troubleshoot, debug and upgrade software</string>
+
+    <string name="job2">Marketing Analyst</string>
+
+    <string name="job2_des">We are looking for a Marketing Analyst who’ll research and identify ways to build our brand and acquire new clients.
+
+Marketing Analyst responsibilities include tracking advertising costs, researching consumer behavior and exploring market trends and opportunities. To be successful in this role, you should have experience with PPC campaigns and be comfortable with processing and analyzing marketing data.
+
+Ultimately, you will help us ensure we spend our marketing budget efficiently and we target our audience through successful campaigns.</string>
+
+    <string name="job3">Legal advisor</string>
+
+    <string name="job3_des">We are looking for a highly qualified Legal Counsel to oversee the legal aspects of our business. You will safeguard our reputation by guaranteeing that the company strictly follows law guidelines and give legal advice to management about all relevant issues.
+
+The successful candidate will effectively ensure legal conformity and minimize probability of exposure.
+
+Responsibilities
+Give accurate and timely counsel to executives in a variety of legal topics (labor law, partnerships, international ventures, corporate finance etc.)
+Collaborate with management to devise efficient defense strategies
+Specify internal governance policies and regularly monitor compliance
+Research and evaluate different risk factors regarding business decisions and operations
+Apply effective risk management techniques and offer proactive advise on possible legal issues
+Communicate and negotiate with external parties (regulators, external counsel, public authority etc.), creating relations of trust
+Draft and solidify agreements, contracts and other legal documents to ensure the company’s full legal rights
+Deal with complex matters with multiple stakeholders and forces
+Provide clarification on legal language or specifications to everyone in the organization
+Conduct your work with integrity and responsibility
+Maintain current knowledge of alterations in legislation</string>
+
+    <string name="job4">Graphic Designer</string>
+
+    <string name="job4_des">We are looking for a Graphic Designer to create engaging and on-brand graphics for a variety of media.</string>
+
+    <string name="job5">Data Scientist</string>
+
+    <string name="job5_des">We are looking for a Data Scientist to analyze large amounts of raw information to find patterns that will help improve our company. We will rely on you to build data products to extract valuable business insights.
+
+In this role, you should be highly analytical with a knack for analysis, math and statistics. Critical thinking and problem-solving skills are essential for interpreting data. We also want to see a passion for machine-learning and research.
+
+Your goal will be to help our company analyze trends to make better decisions.</string>
+</resources>

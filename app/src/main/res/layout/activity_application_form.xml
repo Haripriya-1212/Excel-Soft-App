@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".application_form">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="100dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/coustard"
+            android:text="Get Your Dream Job."
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+
+
+            <EditText
+                android:id="@+id/et_name"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/recentjob_bg"
+                android:hint="Enter Name"
+                android:textSize="15dp"
+                android:textColorHint="#9F9999"
+                android:paddingLeft="65dp"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/person"
+                android:padding="10dp"
+                android:background="@drawable/edittext_application"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="50dp"
+                android:background="@drawable/recentjob_bg"
+                android:hint="Enter e-mail"
+                android:textSize="15dp"
+                android:textColorHint="#9F9999"
+                android:paddingLeft="65dp"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/email"
+                android:padding="10dp"
+                android:background="@drawable/edittext_application"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/black"
+                android:background="@drawable/recentjob_bg"
+                android:hint="Enter number"
+                android:textSize="15dp"
+                android:textColorHint="#9F9999"
+                android:paddingLeft="65dp"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/phone"
+                android:padding="10dp"
+                android:background="@drawable/edittext_application"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+
+            <Spinner
+                android:id="@+id/sp1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="65dp"
+                android:textColor="@color/black"
+                android:background="@drawable/recentjob_bg"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/location"
+                android:padding="10dp"
+                android:background="@drawable/edittext_application"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+
+
+            <EditText
+                android:id="@+id/et_linkedin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/recentjob_bg"
+                android:textColor="@color/black"
+                android:hint="Enter your Linkedin profile link"
+                android:textSize="15dp"
+                android:textColorHint="#9F9999"
+                android:paddingLeft="65dp"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/linkedin"
+                android:padding="12dp"
+                android:background="@drawable/edittext_application"/>
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
